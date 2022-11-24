@@ -1,0 +1,25 @@
+.ant-image-mask{
+    display:none !important;
+}
+.Apptitle{
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    top: 5px;
+    left: 8px;
+}
+.logo {
+    float: left;
+}
+:where(.css-dev-only-do-not-override-i3gose).ant-menu-overflow {
+    display: block !important;
+    margin: 0 auto;
+    text-align: center;
+}
+:where(.css-dev-only-do-not-override-i3gose).ant-menu-light {
+    background: unset !important;
+}
+.ant-menu-item,.ant-menu-item:hover {
+    color:#fff !important;
+}
