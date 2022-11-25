@@ -10,7 +10,7 @@ export default function Router() {
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/settings" element={<Settings />} />
       <Route path="/support" element={<Support />} />
-      <Route path="*" element={<h2>Not Found!</h2>} />
+      {/* <Route path="*" element={<h2>Not Found!</h2>} /> */}
     </Routes>
   );
 }

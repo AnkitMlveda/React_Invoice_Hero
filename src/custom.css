@@ -1,25 +1,75 @@
+.container{
+max-width: 1084.88px;
+margin: 0 auto;
+}
+/* div#root {
+    border-bottom: 1px solid rgba(5, 5, 5, 0.06);
+} */
+body{
+    margin: 0px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+.header{
+    background: unset !important;
+    padding-inline: 0px !important;
+    border-bottom: 1px solid #ccc;
+}
+.ant-layout{
+    background: unset !important;
+}
 .ant-image-mask{
     display:none !important;
 }
 .Apptitle{
     font-weight: bold;
-    font-size: 16px;
-    color: #fff;
+    font-size: 22px;
+    color: #212B36;
     position: relative;
     top: 5px;
     left: 8px;
 }
 .logo {
-    float: left;
+    /* float: left; */
+    position: relative;
+    top: -12px;
 }
-:where(.css-dev-only-do-not-override-i3gose).ant-menu-overflow {
+/* CSS for Menu */
+.ant-menu-overflow {
     display: block !important;
     margin: 0 auto;
     text-align: center;
 }
-:where(.css-dev-only-do-not-override-i3gose).ant-menu-light {
+.ant-menu-light {
     background: unset !important;
 }
 .ant-menu-item,.ant-menu-item:hover {
-    color:#fff !important;
+    color:#212B36 !important;
+} 
+.ant-menu-horizontal{
+    border-bottom: unset !important;
+}
+.anticon{
+    font-size: 14px !important;
+}
+.ant-menu-title-content{
+    text-transform: uppercase !important;
+}
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after,.ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected:hover::after{
+    border-width: 3px;
+    border-bottom-color: #00a2ff  !important;
+    width: 80%;
+}
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item:hover::after{
+    border-width: 3px;
+    border-bottom-color: #e7e7e7;
+    width: 80%;
+}
+.ant-menu-item-selected,.ant-menu-item-selected:hover{
+    color: #00a2ff !important;
+}
+
+.main{
+    margin-top: 24px;
 }
