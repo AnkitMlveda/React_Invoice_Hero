@@ -53,6 +53,9 @@ h1, h2, h3, h4, h5, h6, p {
 .anticon{
     font-size: 14px !important;
 }
+.ant-alert-icon {
+    font-size: 30px !important;
+}
 .ant-menu-title-content{
     text-transform: uppercase !important;
 }
@@ -69,7 +72,16 @@ h1, h2, h3, h4, h5, h6, p {
 .ant-menu-item-selected,.ant-menu-item-selected:hover{
     color: #00a2ff !important;
 }
-
 .main{
+    margin-top: 24px;
+}
+.ant-col-4 {
+    flex: 0 0 16% !important;
+}
+.invoicelisttotal{
+    padding-left: 36px;
+}
+.information{
+    width: 100% !important;
     margin-top: 24px;
 }
