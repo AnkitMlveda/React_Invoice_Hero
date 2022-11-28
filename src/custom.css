@@ -85,3 +85,13 @@ h1, h2, h3, h4, h5, h6, p {
     width: 100% !important;
     margin-top: 24px;
 }
+.ant-input-affix-wrapper,.ant-picker,.ant-btn,.ant-select-selector{
+    border-radius: unset !important;
+}
+.filtermain>div{
+    width: 100% !important;
+    margin-top: 12px;
+}
+.ant-drawer-body {
+    padding: 0px !important; 
+}
