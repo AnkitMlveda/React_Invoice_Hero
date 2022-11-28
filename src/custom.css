@@ -2,9 +2,6 @@
 max-width: 1084.88px;
 margin: 0 auto;
 }
-/* div#root {
-    border-bottom: 1px solid rgba(5, 5, 5, 0.06);
-} */
 body{
     margin: 0px;
 }
@@ -31,11 +28,9 @@ h1, h2, h3, h4, h5, h6, p {
     left: 8px;
 }
 .logo {
-    /* float: left; */
     position: relative;
     top: -12px;
 }
-/* CSS for Menu */
 .ant-menu-overflow {
     display: block !important;
     margin: 0 auto;

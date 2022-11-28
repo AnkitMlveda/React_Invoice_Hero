@@ -53,7 +53,7 @@ export default function Dashboard() {
     <div className="main">
       <Row>
         <Col span={4}>
-          <h1>Invoices</h1>
+          <h1>31 Invoices</h1>
         </Col>
         <Col span={12}>
           <Input
