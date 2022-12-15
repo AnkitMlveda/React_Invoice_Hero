@@ -5,12 +5,13 @@ import {
   DatePicker,
   Button,
   Select,
-  Alert,
   Drawer,
   Collapse,
 } from "antd";
-import { SearchOutlined, BulbTwoTone } from "@ant-design/icons";
+import { SearchOutlined } from "@ant-design/icons";
 import { useState } from "react";
+import Totalorder from "../Totalorder";
+import Footer from "../Footer";
 
 export default function Dashboard() {
   const [open, setOpen] = useState(false);
@@ -53,7 +54,7 @@ export default function Dashboard() {
     <div className="main">
       <Row>
         <Col span={4}>
-          <h1>31 Invoices</h1>
+          <Totalorder/>
         </Col>
         <Col span={12}>
           <Input
@@ -143,13 +144,7 @@ export default function Dashboard() {
             <Option value="100">100</Option>
           </Select>
         </Col>
-        <Alert
-          description="Now you can view/download your invoices from your orders page itself. Select particular orders (50 max) or open a particular order and choose Invoice Hero features from More actions drop down."
-          type="info"
-          showIcon
-          className="information"
-          icon={<BulbTwoTone />}
-        />
+        <Footer/>
       </Row>
     </div>
   );
